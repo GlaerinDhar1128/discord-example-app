@@ -37,45 +37,28 @@ function formatResult(result) {
 // this is just to figure out winner + verb
 const RPSChoices = {
   rock: {
-    description: 'sedimentary, igneous, or perhaps even metamorphic',
-    virus: 'outwaits',
-    computer: 'smashes',
+    description: 'sedimentary, igneous, or perhaps even metamorphic 🪨',
+    lizard: 'crushes',
     scissors: 'crushes',
   },
-  cowboy: {
-    description: 'yeehaw~',
-    scissors: 'puts away',
-    wumpus: 'lassos',
-    rock: 'steel-toe kicks',
+  lizard: {
+    description: 'a small, often venomous reptile 🦎',
+    spock: 'poisons',
+    paper: 'eats',
   },
   scissors: {
-    description: 'careful ! sharp ! edges !!',
+    description: 'careful ! sharp ! edges !! ✂️',
     paper: 'cuts',
-    computer: 'cuts cord of',
-    virus: 'cuts DNA of',
+    lizard: 'decapitates',
   },
-  virus: {
-    description: 'genetic mutation, malware, or something inbetween',
-    cowboy: 'infects',
-    computer: 'corrupts',
-    wumpus: 'infects',
-  },
-  computer: {
-    description: 'beep boop beep bzzrrhggggg',
-    cowboy: 'overwhelms',
-    paper: 'uninstalls firmware for',
-    wumpus: 'deletes assets for',
-  },
-  wumpus: {
-    description: 'the purple Discord fella',
-    paper: 'draws picture on',
-    rock: 'paints cute face on',
-    scissors: 'admires own reflection in',
+  spock: {
+    description: 'a logical, scientific, and highly intelligent choice 🖖',
+    scissors: 'smashes',
+    rock: 'vaporizes',
   },
   paper: {
-    description: 'versatile and iconic',
-    virus: 'ignores',
-    cowboy: 'gives papercut to',
+    description: 'versatile and iconic 📃',
+    spock: 'disproves',
     rock: 'covers',
   },
 };
